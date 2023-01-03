@@ -107,7 +107,6 @@ a:focus {
     outline: none;
 }
 img {
-    width: 100%;
     height: auto;
 }
 img {
@@ -974,7 +973,7 @@ color: #8BA889;
 
 /* =======  Section & Title style  ======= */
 .section-padding {
-    padding: 100px 0;
+    padding: 20px 0;
     clear: both;
     width: 100%;
     display: block;
@@ -1004,6 +1003,7 @@ color: #8BA889;
     margin-bottom: 10px;
     letter-spacing: 5px;
     text-transform: uppercase;
+    line-height: 20px;
 }
 .rsvp h2 {
     color: #1b1b1b;
@@ -1020,6 +1020,9 @@ color: #8BA889;
     font-weight: 400;
     font-family: 'Alex Brush', cursive;
     margin-bottom: 30px;
+}
+.color-salvia{
+    color: #8BA889;
 }
 
 /* =======  Welcome style  ======= */
@@ -1601,9 +1604,6 @@ overflow: hidden !important;
 .when-where .content .cont .cont-list li .icon span {
     font-size: 16px;
     color: #8BA889;
-}
-.when-where .content .cont .cont-list li .text {
-    margin-left: 20px;
 }
 .when-where .content .cont .cont-list li .text p {
     margin: 0;
@@ -2321,9 +2321,8 @@ overflow: hidden !important;
 /* =======  Gift Registry style  ======= */
 .gift-registry {
     background-color: #fff;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    margin-bottom: -90px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .gift-registry h2 {
     margin-bottom: 10px;
