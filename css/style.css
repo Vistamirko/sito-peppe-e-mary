@@ -1274,11 +1274,11 @@ color: #8BA889;
 }
 @media all and (max-width: 768px) {
   #countdown li {
-    font-size: 12px;
-    padding: 15px;
+    font-size: 11px;
+    padding: 10px;
   }
   #countdown li span {
-    font-size: 60px;
+    font-size: 39px;
   }
 }
 
